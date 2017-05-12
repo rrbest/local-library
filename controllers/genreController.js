@@ -1,7 +1,7 @@
 var Book = require('../models/book.js');
 var async = require('async');
-
 var Genre = require('../models/genre');
+
 
 // Display list of all Genre
 exports.genre_list = function(req, res, next) {
